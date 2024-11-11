@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #444;
+}
+
+nav ul {
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page {
+    padding: 20px;
+    margin-top: 50px;  
+    background: #f4f4f4;  
+    min-height: 100vh;  
+    color: black;  
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    color: black;  
+    text-align: center;
+    overflow: hidden;
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: relative;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+}
+
+.skills {
+    margin-top: 20px;
+    text-align: center;
+    background: #f4f4f4;  
+    color: black;  
+}
+
+.skill-list {
+    margin-top: 20px;
+}
+
+.skill {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;  
+    width: 80%;  
+    margin: 10px auto;  
+}
+
+.project {
+    background: #f4f4f4;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.contact-page {
+    min-height: calc(100vh - 100px); 
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+    width: 100%;
+}
